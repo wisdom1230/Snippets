@@ -38,6 +38,13 @@ int main(){
         cout << ch;
     }
     
+    // 字符串读取
+    string line;
+    while (getline(file_1, line))
+    {
+        cout << line << endl;
+    }
+    
     file_1.close();
     return 0;
 }
